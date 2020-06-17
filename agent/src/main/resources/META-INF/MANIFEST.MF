@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Premain-Class: com.taobao.test.agent.SimpleAgent
+Agent-Class: com.taobao.test.agent.SimpleAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true

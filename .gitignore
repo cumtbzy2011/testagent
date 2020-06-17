@@ -1,0 +1,4 @@
+# Project exclude paths
+/agent/target/
+/demo/target/
+/target/
