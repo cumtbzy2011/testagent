@@ -24,3 +24,13 @@
 3. 执行btrace脚本
     a. 将btrace上传到服务器
     b.  btrace -cp build -p 2020 26217 /Users/bianzhaoyu/IdeaProjects/testagent/btrace/src/main/java/BtraceTestMain.java
+    //但是会报错，编译不通过。换了个版本后编译通过了但是运行时报找不到Message类，应该是jdk或者版本有问题。
+    
+    
+生产上实际使用arthas
+1. 下载并安装arthas:
+    curl -O https://alibaba.github.io/arthas/arthas-boot.jar
+2. 启动并选择java进程（第几个）
+    java -jar arthas-boot.jar
+    2
+3. 执行arthas命令
